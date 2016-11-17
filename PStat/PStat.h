@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <time.h>
+#import "sqlite3.h"
+
 
 //! Project version number for PStat.
 FOUNDATION_EXPORT double PStatVersionNumber;
