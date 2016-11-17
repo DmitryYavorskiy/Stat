@@ -19,6 +19,7 @@
 		E13415E21DD20528005CA7F6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13415E11DD20528005CA7F6 /* Location.swift */; };
 		E13415E41DD20952005CA7F6 /* RequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13415E31DD20952005CA7F6 /* RequestData.swift */; };
 		E13415E61DD20C4D005CA7F6 /* IDFA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13415E51DD20C4D005CA7F6 /* IDFA.swift */; };
+		E1456C7E1DDDFB3600CC078C /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = E1456C7D1DDDFB3600CC078C /* data.db */; };
 		E1DDC3271DD0BEA400733A3E /* PStat.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DDC3251DD0BEA400733A3E /* PStat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1DDC32E1DD0BEE300733A3E /* PStatWorkMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDC32D1DD0BEE300733A3E /* PStatWorkMethod.swift */; };
 		E1DDC3301DD0C36100733A3E /* DeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDC32F1DD0C36100733A3E /* DeviceExtension.swift */; };
@@ -37,6 +38,7 @@
 		E13415E11DD20528005CA7F6 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		E13415E31DD20952005CA7F6 /* RequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestData.swift; sourceTree = "<group>"; };
 		E13415E51DD20C4D005CA7F6 /* IDFA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDFA.swift; sourceTree = "<group>"; };
+		E1456C7D1DDDFB3600CC078C /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.db; sourceTree = "<group>"; };
 		E1DDC3221DD0BEA400733A3E /* PStat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PStat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DDC3251DD0BEA400733A3E /* PStat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PStat.h; sourceTree = "<group>"; };
 		E1DDC3261DD0BEA400733A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				E10402971DDDBD80000A0CD5 /* SQLTable.swift */,
 				E10402981DDDBD80000A0CD5 /* String-Extras.swift */,
 				E10402921DDDBB9C000A0CD5 /* Category.swift */,
+				E1456C7D1DDDFB3600CC078C /* data.db */,
 			);
 			name = Sql;
 			path = PStat;
@@ -184,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1456C7E1DDDFB3600CC078C /* data.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
